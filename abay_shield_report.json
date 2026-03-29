@@ -1,0 +1,37 @@
+{
+  "tool": "Abay Shield",
+  "version": "2.0",
+  "report": {
+    "password_masked": "******",
+    "length": 6,
+    "score": 1.0,
+    "max_score": 8,
+    "strength": "CRITICAL",
+    "strength_color": "\u001b[31m",
+    "entropy_bits": 13.95,
+    "character_set_size": 10,
+    "crack_time": {
+      "time": "1 milliseconds",
+      "seconds": 0.001,
+      "mode": "\u26a1 Offline Fast Hash (MD5/SHA1)",
+      "description": "Cracking weak hashes on modern GPU cluster"
+    },
+    "feedback": [
+      "\u26a0\ufe0f Length 6 chars - Weak, needs at least 8",
+      "\u274c No letters detected - Very weak!",
+      "\u2705 Good - 6 numbers found",
+      "\u26a0\ufe0f Add special characters (!@#$% etc)",
+      "\u26a0\ufe0f Pattern detected: sequential numbers"
+    ],
+    "warnings": [
+      "Short password",
+      "No alphabetic characters",
+      "No special characters",
+      "Weak patterns: sequential numbers"
+    ],
+    "successes": [
+      "Numbers included"
+    ],
+    "timestamp": "2026-03-29T15:02:33.972136"
+  }
+}
